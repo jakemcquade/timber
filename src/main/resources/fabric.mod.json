@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "timber",
+	"version": "${version}",
+	"name": "Timber",
+	"description": "Simple. Fast. Effective. Chop one block, drop the whole tree.",
+	"authors": [
+		"Jake McQuade"
+	],
+	"contact": {
+		"homepage": "https://jakemc.dev",
+		"sources": "https://github.com/jakemcquade/timber"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/timber/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"timber.jakemc_dev.Timber"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
